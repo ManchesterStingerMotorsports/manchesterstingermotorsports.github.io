@@ -46,10 +46,12 @@ body{
 	margin: 0;
 }
 
-
+.icon{
+	max-height: 70px;
+}
 
 .navbar{
-	
+	font-weight: 350;
 	padding: 0.3rem;
 }
 
