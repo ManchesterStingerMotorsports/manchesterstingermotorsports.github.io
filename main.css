@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+:root {
+	--c1: #181818;
+	--c2: #555555;
+	--c3: #bababa;
+	--c4: #001180;
+	--c5: #0074bd;
+	
+}
+
+body{
+	font-family: 'Montserrat';
+	font-variant: small-caps;
+	font-weight: 200;
+	background-color: var(--c2);
+}
+
+
+.dark{
+	background-color: var(--c1);
+	color: white;
+}
+
+.light{
+	background-color: var(--c3);
+	color: black;
+	font-weight: 300;
+}
+
+.blocksec{
+	width: 100%;
+	padding: 20px;
+	display: flex;
+}
+
+.wideblock{
+	padding: 0;
+}
+
+.fillimg{
+	width: 100%;
+	height: 100px;
+	object-fit: cover;
+	margin: 0;
+}
+
+
+
+.navbar{
+	
+	padding: 0.3rem;
+}
+
+.footer{
+	background-color: black;
+	color: white;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	padding: 0.1rem;
+
+}
